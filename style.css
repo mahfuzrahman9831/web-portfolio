@@ -7,6 +7,39 @@ body {
         font-variation-settings:wdth 100;     
 }
 
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 18px 30px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul li{
+    display: inline;
+    margin-right: 50px;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-title{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
 /* nav related styles */
 .Mary {
     color: #FD6E0A;
