@@ -17,10 +17,15 @@ body {
 
 }
 
+header{
+    background-color: #FFF8F3;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 
 }
 
@@ -43,4 +48,24 @@ ul a{
 /* nav related styles */
 .Mary {
     color: #FD6E0A;
+}
+
+/* banner styles */
+
+.banner{
+    padding: 30px 30px 30px 150px;
+}
+
+.grettings{
+    font-size: 45px;
+    font-weight:lighter;
+}
+
+.mary-hardly{
+    font-size: 85px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: darkcyan;
 }
